@@ -106,6 +106,12 @@ table td:nth-child(3) {
     color: white;
 } */
 
+@media (max-width: 300px) {
+    .table {
+        font-size: .6rem;
+    }
+}
+
 .bg-1 {
     background: #C0C0C080;
 }
