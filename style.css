@@ -1,104 +1,103 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: normal;
-    color: #0f141e;
-    background: #f1f1f1;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #0f141e;
+  background: #f1f1f1;
 }
 
 .container {
-    max-width: 650px;
-    margin: auto;
-    padding-top: 20px;
+  max-width: 650px;
+  margin: auto;
+  padding-top: 20px;
 }
 
 .avatar {
-    width: 200px;
-    border-radius: 15px;
-    box-shadow: 4px 4px 14px rgba(0, 0, 0, .5);
+  width: 200px;
+  border-radius: 15px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.5);
 }
 
 .info {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .box-1 {
-    display: inline-block;
+  display: inline-block;
 }
 
 .box-2 {
-    display: inline-block;
-    width: calc(100% - 224px);
-    margin-left: 20px;
+  display: inline-block;
+  width: calc(100% - 224px);
+  margin-left: 20px;
 }
 
 @media (max-width: 600px) {
+  .box-1 {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+  }
 
-    .box-1 {
-        display: block;
-        text-align: center;
-        margin-bottom: 10px;
-    }
-
-    .box-2 {
-        display: block;
-        text-align: center;
-        margin: 0;
-        width: 100%;
-    }
+  .box-2 {
+    display: block;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+  }
 }
 
 .info h1 {
-    color: #2F4F4F;
-    margin: 0 0 8px 0;
-    font-size: 1.6em;
+  color: #2f4f4f;
+  margin: 0 0 8px 0;
+  font-size: 1.6em;
 }
 
 .info h3 {
-    margin: 0 0 5px 0;
+  margin: 0 0 5px 0;
 }
 
 .info p {
-    margin: 5px 0 8px 0;
+  margin: 5px 0 8px 0;
 }
 
 .info-text {
-    font-size: .9em;
-    font-style: italic;
-    font-weight: normal;
-    color: #0f141e80;
-    margin-bottom: 10px;
+  font-size: 0.9em;
+  font-style: italic;
+  font-weight: normal;
+  color: #0f141e80;
+  margin-bottom: 10px;
 }
 
 .info-text p {
-    margin: 0px;
+  margin: 0px;
 }
 
 .card {
-    border-radius: 10px;
-    padding: 15px 20px;
-    margin-bottom: 15px;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-bottom: 15px;
 }
 
 .card h2 {
-    margin-bottom: 10px;
-    margin-top: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .table th {
-    text-align: left;
-    padding: 0px 20px 10px 0px;
+  text-align: left;
+  padding: 0px 20px 10px 0px;
 }
 
 .table td {
-    text-align: left;
-    padding: 0px 20px 0px 0px;
+  text-align: left;
+  padding: 0px 20px 0px 0px;
 }
 
 .table {
-    width: 100%;
+  width: 100%;
 }
 
 /* table td:nth-child(2),
@@ -107,107 +106,107 @@ table td:nth-child(3) {
 } */
 
 @media (max-width: 300px) {
-    .table {
-        font-size: .6rem;
-    }
+  .table {
+    font-size: 0.6rem;
+  }
 }
 
 .bg-1 {
-    background: #C0C0C080;
+  background: #c0c0c080;
 }
 
 .bg-2 {
-    background: #77889980;
+  background: #77889980;
 }
 
 .bg-3 {
-    background: #80808080;
+  background: #80808080;
 }
 
 .bg-4 {
-    background: #2F4F4F80;
+  background: #2f4f4f80;
 }
 
 a {
-    color: black;
-    text-decoration: none;
-    font-size: .9em;
+  color: black;
+  text-decoration: none;
+  font-size: 0.9em;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 a:active {
-    color: blue;
+  color: blue;
 }
 
 a:visited {
-    color: darkmagenta;
+  color: darkmagenta;
 }
 
 .btn {
-    background: #111;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 5px 15px;
-    cursor: pointer;
-    font-family: inherit;
-    margin-top: 10px;
+  background: #111;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+  cursor: pointer;
+  font-family: inherit;
+  margin-top: 10px;
 }
 
 .btn:hover {
-    opacity: .8;
+  opacity: 0.8;
 }
 
 .list {
-    padding: 0 20px;
+  padding: 0 20px;
 }
 
 .row {
-    margin-bottom: 10px;
-    display: flex;
+  margin-bottom: 10px;
+  display: flex;
 }
 
 .row .groupe {
-    width: 50%;   
-    margin-right: 20px;
-    /* вместо display: flex; (в .row) и width: 50%; (в .row .groupe) можно использовать следующее: */
-    /* display: inline-block; */
-    /* width: calc(50% - 20px); */
+  width: 50%;
+  margin-right: 20px;
+  /* вместо display: flex; (в .row) и width: 50%; (в .row .groupe) можно использовать следующее: */
+  /* display: inline-block; */
+  /* width: calc(50% - 20px); */
 }
 
 .row .groupe:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 @media (max-width: 650px) {
-    .row {
-        display: block;
-    }
+  .row {
+    display: block;
+  }
 
-    .row .groupe {
-        margin: 0;
-        margin-bottom: 15px;
-        width: 100%;
-    }
+  .row .groupe {
+    margin: 0;
+    margin-bottom: 15px;
+    width: 100%;
+  }
 }
 
 .groupe label {
-    display: block;
-    font-size: 14px;
+  display: block;
+  font-size: 14px;
 }
 
 .groupe input,
 .groupe textarea {
-    width: 100%;
-    box-sizing: border-box;
-    border: none;
-    background: transparent;
-    border-bottom: 1px solid #C0C0C0;
-    color: #000;
-    padding: 10px 0 5px 5px;
-    outline: none;
-    font-family: inherit;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #c0c0c0;
+  color: #000;
+  padding: 10px 0 5px 5px;
+  outline: none;
+  font-family: inherit;
 }
